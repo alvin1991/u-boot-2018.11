@@ -4,6 +4,8 @@ but,this is congfigured for stm32f767ig and tested on Apollo STM32F4&F7_MotherBo
 
 How to make the project
 $cd u-boot-2018.11
+
 $make menuconfig
+
 $make ARCH=arm CROSS_COMPILE=arm-none-eabi-
 
